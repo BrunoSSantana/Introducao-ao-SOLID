@@ -12,6 +12,7 @@ class TurnUserAdminUseCase {
     const user = this.usersRepository.findById(user_id);
 
     if (user) {
+      console.log(user);
       this.usersRepository.turnAdmin(user);
       console.log(user);
       return user;
