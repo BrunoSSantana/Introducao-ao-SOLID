@@ -10,11 +10,12 @@ class ListAllUsersUseCase {
 
   execute({ user_id }: IRequest): User[] {
     const userAdminVerification = this.usersRepository.findById(user_id);
-    if (!userAdminVerification.admin === true) {
-      throw new Error("You do not have permission");
-    }
 
-    return this.usersRepository.list();
+    if (userAdminVerification.admin === true) {
+      const allUsers = this.usersRepository.list();
+      return allUsers;
+    }
+    throw new Error("You do not have permission");
   }
 }
 
