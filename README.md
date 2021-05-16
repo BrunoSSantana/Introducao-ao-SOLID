@@ -16,7 +16,7 @@
 ---
 <p align="center">
  <a href="#objetivo">Objetivo</a> •
- <a href="#requisitos">Detalhes</a> •
+ <a href="#detalhes">Detalhes</a> •
  <a href="#tecnologias">Tecnologias</a> •
  <a href="#como_executar">Como Executar</a> • 
  <a href="#licenca">Licença</a> • 
@@ -25,16 +25,29 @@
 
 <h2 id="objetivo">:dart: Objetivo</h2>
 
-Iniciar uma aplicação de Gerenciamento de Todos.
+Essa será uma aplicação de listagem e cadastro de usuários. E para que que a listagem de usuário funcio é preciso que esse seja um admin. Mais detalhes você pode conferir em [rotas](#rotas-da-aplicação).
 
-<h2 id="requisitos">:white_check_mark: Detalhes </h2>
+<h2 id="detalhes">:white_check_mark: Detalhes </h2>
 
 ### Rotas
 
+## Rotas da aplicação
 
+### POST `/users`
 
-### Testes
+A rota deve receber `name`, e `email` dentro do corpo da requisição para que seja possível cadastrar um usuário.
 
+### PATCH `/users/:user_id/admin`
+
+A rota deve receber, nos parâmetros da rota, o `id` de um usuário e transformar esse usuário em admin.
+
+### GET `/users/:user_id`
+
+A rota deve receber, nos parâmetros da rota, o `id` de um usuário e devolver as informações do usuário encontrado pelo corpo da resposta.
+
+### GET `/users`
+
+A rota deve receber, pelo header da requisição, uma propriedade `user_id` contendo o `id` do usuário e retornar uma lista com todos os usuários cadastrados. O `id` deverá ser usado para validar se o usuário que está solicitando a listagem é um admin. O retorno da lista deve ser feito apenas se o usuário for admin.
 
 
 <h2 id="tecnologias">:hammer_and_wrench: Tecnologias</h2>
@@ -45,6 +58,22 @@ Iniciar uma aplicação de Gerenciamento de Todos.
 
 <h2 id="como_executar">:computer: Como Executar</h2>
 
+```bash
+# Clonando repositório
+$ git clone https://github.com/BrunoSSantana/desafio04-trilha-node.js.git
+
+# Entrando na pasta
+$ cd desafio04-trilha-node.js
+
+# Instalando dependências
+$ yarn
+
+# Executando a aplicação em modo de desenvolvimento
+$ yarn dev
+
+# Inciando na porta:3333
+acesse <http://localhost:3333>
+```
 
 <h2 id="licenca">:memo: Licença</h2>
 
