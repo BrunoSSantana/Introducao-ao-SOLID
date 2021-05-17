@@ -76,7 +76,7 @@ acesse <http://localhost:3333>
 
 Para acessar a documentação, após fazer a instalação na sua máquina, acesse a rota [`/api-docs`](<http://localhost:3333/api-docs/>)
 
-![](https://i.imgur.com/HTdrCnb.png)
+![](https://media.giphy.com/media/0VliD1rf8O6zNhRAsM/giphy.gif)
 
 <h2 id="licenca">:memo: Licença</h2>
 
