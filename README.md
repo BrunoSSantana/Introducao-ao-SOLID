@@ -72,11 +72,11 @@ $ yarn dev
 # Inciando na porta:3333
 acesse <http://localhost:3333>
 ```
-### Docs <http://localhost:3333/api-docs/>
+### Docs
 
-Para acessar a documentação <http://localhost:3333/api-docs/>
+Para acessar a documentação, após fazer a instalação na sua máquina, acesse a rota [`/api-docs`](<http://localhost:3333/api-docs/>)
 
-![]()
+![](https://i.imgur.com/HTdrCnb.png)
 
 <h2 id="licenca">:memo: Licença</h2>
 
