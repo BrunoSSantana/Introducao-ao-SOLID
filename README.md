@@ -16,7 +16,7 @@
 ---
 <p align="center">
  <a href="#objetivo">Objetivo</a> •
- <a href="#detalhes">Detalhes</a> •
+ <a href="#rotas">Rotas</a> •
  <a href="#tecnologias">Tecnologias</a> •
  <a href="#como_executar">Como Executar</a> • 
  <a href="#licenca">Licença</a> • 
@@ -25,13 +25,11 @@
 
 <h2 id="objetivo">:dart: Objetivo</h2>
 
-Essa será uma aplicação de listagem e cadastro de usuários. E para que que a listagem de usuário funcio é preciso que esse seja um admin. Mais detalhes você pode conferir em [rotas](#rotas-da-aplicação).
+Essa foi uma API de listagem e cadastro de usuários, desenvolvida durante o bootcamp [Ignite](https://help.rocketseat.com.br/hc/pt-br/sections/1500000466461-Ignite) da [Rocketseat](https://rocketseat.com.br). Onde a listagem de usuário funcionasse seria preciso que esse fosse um admin. Mais detalhes você pode conferir em rotas.
 
-<h2 id="detalhes">:white_check_mark: Detalhes </h2>
+Além disso foi implementado a documentação da API utilizando o [Swagger](swagger.io/).
 
-### Rotas
-
-## Rotas da aplicação
+## Rotas
 
 ### POST `/users`
 
@@ -74,6 +72,11 @@ $ yarn dev
 # Inciando na porta:3333
 acesse <http://localhost:3333>
 ```
+### Docs <http://localhost:3333/api-docs/>
+
+Para acessar a documentação <http://localhost:3333/api-docs/>
+
+![]()
 
 <h2 id="licenca">:memo: Licença</h2>
 
