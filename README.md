@@ -50,9 +50,9 @@ A rota deve receber, pelo header da requisição, uma propriedade `user_id` cont
 
 <h2 id="tecnologias">:hammer_and_wrench: Tecnologias</h2>
 
-* <a href="https://jestjs.io/" ><img width="40px" src="https://cdn.iconscout.com/icon/free/png-256/jest-3628860-3030000.png"/></a>
-* <a href="https://nodejs.org/" ><img width="40px" src="https://cdn.iconscout.com/icon/free/png-256/node-js-1174925.png"/></a>
-* <a href="https://expressjs.com/" ><img width="40px" src="https://cdn.iconscout.com/icon/free/png-256/express-8-1175029.png"/></a>
+![Jest](https://img.shields.io/badge/-jest-%23C21325?style=for-the-badge&logo=jest&logoColor=white)
+![NodeJS](https://img.shields.io/badge/node.js-%2343853D.svg?style=for-the-badge&logo=node.js&logoColor=white)
+![Express.js](https://img.shields.io/badge/express.js-%23404d59.svg?style=for-the-badge&logo=express&logoColor=%2361DAFB)
 
 <h2 id="como_executar">:computer: Como Executar</h2>
 
